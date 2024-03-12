@@ -10,7 +10,6 @@ body {
   }
   
   form {
-    background-color: #fff;
     border: 1px solid #ccc;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -19,6 +18,7 @@ body {
     text-align: left;
   }
   
+
   label {
     display: block;
     margin-bottom: 8px;
@@ -40,9 +40,51 @@ body {
   input[type="submit"]:hover {
     background-color: #45a049;
   }
+
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
   
   /* Optional: Add some spacing between form elements */
   br {
     margin-top: 10px;
   }
+  /* ... Existing styles ... */
+
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.container.dark-mode {
+  background-color: #444;
+  border-color: #555;
+}
+
+form.dark-mode{
+  background-color: #333;
+  color: #fff;
+}
+
+button.dark-mode {
+  background-color: #fff;
+  color: #333;
+}
+
+input.dark-mode{
+  background-color: #333;
+  color: #fff;
+
+}
+
   
