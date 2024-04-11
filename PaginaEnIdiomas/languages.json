@@ -1,0 +1,27 @@
+{
+    "en":{
+        "big_text": "Welcome",
+        "paragraph": "Wait for more information."
+    },
+    "es":{
+        "big_text":"Bienvenido",
+        "paragraph":"Espera mas informacion"
+
+    },
+    "fr":{
+        "big_text":"zxcvzxcvzcxvz",
+        "paragraph":"Attendez plus d'informations"
+
+    },
+    "de":{
+        "big_text":"Willkommen",
+        "paragraph":"Warten Sie auf weitere Informationen"
+
+    },
+    "it":{
+        "big_text":"Benvenuta",
+        "paragraph":"Attendi maggiori informazioni"
+
+    }
+}
+
