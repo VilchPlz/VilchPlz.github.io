@@ -1,0 +1,53 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('../images/background.jpg'); /* Updated path for background image */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    background: rgba(255, 170, 90, 0.801); /* White background with 80% opacity */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.text-area {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background: #ffffffc2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.large {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.medium {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.small {
+    font-size: 14px;
+    line-height: 1.3;
+}
